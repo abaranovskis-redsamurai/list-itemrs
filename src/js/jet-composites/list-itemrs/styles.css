@@ -1,0 +1,18 @@
+list-itemrs:not(.oj-complete){
+  visibility: hidden;
+}
+
+list-itemrs{
+
+}
+
+.comp-value{
+    color: #309fdb;
+    font-size: 28px;
+    text-align: center;
+}
+
+.comp-label{
+    text-align: center;
+    white-space: nowrap;
+}

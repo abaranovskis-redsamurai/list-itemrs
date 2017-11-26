@@ -1,0 +1,32 @@
+<!--
+  Copyright (c) 2015, 2017, Oracle and/or its affiliates.
+  The Universal Permissive License (UPL), Version 1.0
+-->
+<div class="oj-panel">
+  <div class="oj-flex-bar">
+    <div class="oj-flex-bar-start">
+      <oj-collapsible id="collComp">
+        <h3 id="hComp" slot="header" data-bind="text: headerMsg"></h3>
+        <oj-defer>
+          <div class="oj-flex oj-flex-items-pad">
+            <div class="oj-flex-item oj-md-float-end">
+                <div class="comp-value" data-bind="text: phoneMsg"></div>
+                <div class="comp-label">Phone</div>
+            </div>
+            <div class="oj-flex-item oj-md-float-end">
+                <div class="comp-value" data-bind="text: emailMsg"></div>
+                <div class="comp-label">Email</div>
+            </div>
+            <div class="oj-flex-item oj-md-float-end">
+                <div class="comp-value" data-bind="text: jobMsg"></div>
+                <div class="comp-label">Job</div>
+            </div>
+          </div>
+        </oj-defer>
+      </oj-collapsible>
+    </div>
+    <div class="oj-flex-bar-end">
+      <a href="#" data-bind="click: function(data, event) { handleClick(headerMsg) }">Open</a>
+    </div>
+  </div>
+</div>

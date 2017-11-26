@@ -1,0 +1,47 @@
+{
+  "name": "list-itemrs",
+  "displayName": "list-itemrs",
+  "description": "Describe your component here",
+  "version": "1.0.0",
+  "jetVersion": "^4.1.0",
+  "properties": {
+    "phone": {
+      "description": "Phone number",
+      "type": "string"
+    },
+    "email": {
+      "description": "Email address",
+      "type": "string"
+    },
+    "firstname": {
+      "description": "First name",
+      "type": "string"
+    },
+    "lastname": {
+      "description": "Last name",
+      "type": "string"
+    },
+    "job": {
+      "description": "Job",
+      "type": "string"
+    }
+  },
+  "methods": {
+
+  },
+  "events": {
+    "openDetails": {
+      "description": "Triggered when Open is pressed.",
+      "bubbles": true,
+      "detail": {
+        "value": {
+          "description": "Item value.",
+          "type": "string"
+        }
+      }
+    }
+  },
+  "slots": {
+
+  }
+}
